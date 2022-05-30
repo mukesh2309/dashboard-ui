@@ -1,0 +1,6 @@
+.activity_info {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: flex-start;
+  column-gap: 0.5rem;
+}

@@ -1,0 +1,54 @@
+.nav {
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+  color: #1a1919;
+  padding: 0 2rem;
+  background-color: #ffffff;
+}
+.left {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-right: 1rem;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-left: 1px solid #e2e2e2;
+  padding: 0.8rem 1rem;
+  padding: 0.8rem 0 0.8rem 1rem;
+  cursor: pointer;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  column-gap: 1.6rem;
+}
+
+.profile_name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.menu {
+  position: relative;
+}
+.count {
+  background-color: #2995da;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: -0.8rem;
+  right: -0.8rem;
+  padding: 2px 5px;
+}
+.count span {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.2rem;
+}
