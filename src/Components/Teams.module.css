@@ -51,3 +51,15 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+@media (max-width: 820px) {
+  .teams {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+@media (max-width: 450px) {
+  ._search_team_1evr7_101 {
+    display: none;
+  }
+}

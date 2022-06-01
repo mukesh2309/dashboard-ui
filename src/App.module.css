@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   transition: all 0.1s;
+  overflow-x: hidden;
 }
 html {
   font-size: 62.5%;
@@ -19,4 +20,14 @@ body {
 .main {
   display: flex;
   background-color: #e5e5e5;
+}
+@media (max-width: 1050px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 920px) {
+  html {
+    font-size: 50%;
+  }
 }

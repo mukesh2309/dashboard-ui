@@ -27,7 +27,6 @@
 .btn button {
   outline: none;
   border: none;
-  padding: 0.6rem 0.4rem;
   background: transparent;
   color: #fff;
   cursor: pointer;
@@ -57,4 +56,10 @@
   background-color: transparent;
   border: none;
   outline: none;
+}
+
+@media (max-width: 450px) {
+  .search_team {
+    display: none;
+  }
 }
